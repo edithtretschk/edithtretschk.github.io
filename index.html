@@ -1,0 +1,641 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Edith Tretschk</title>
+
+    <meta name="author" content="Edith Tretschk">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Edith Tretschk
+                </p>
+                <p> I am a Research Scientist at Meta Reality Labs Research in the San Francisco Bay Area. 
+				</p>
+				<p>I did my PhD in the <a href="https://www.mpi-inf.mpg.de/departments/visual-computing-and-artificial-intelligence/" target="_blank"> Visual Computing and Artificial Intelligence</a> department at the <a href="https://www.mpi-inf.mpg.de" target="_blank">Max Planck Institute for Informatics</a> with <a href="https://www.mpi-inf.mpg.de/~theobalt/" target="_blank">Christian Theobalt</a> as my Ph.D. advisor. 
+                </p>
+                <p style="text-align:center">
+                  <a href="https://mailhide.io/e/YzxxLcnE" target="_blank">Email</a> &nbsp;/&nbsp;
+                  <a href="data/CV_Edith_Tretschk.pdf" target="_blank">CV</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=FoklOeEAAAAJ" target="_blank">Google Scholar</a> &nbsp;/&nbsp;
+				  <a href="https://www.linkedin.com/in/edith-tretschk" target="_blank">LinkedIn</a> &nbsp;/&nbsp;
+                  <a href="https://twitter.com/tretschk" target="_blank">Twitter</a> 
+                </p>
+              </td>
+              <td style="padding:2.5%;width:30%;max-width:30%">
+                <a href="images/photo.jpg" target="_blank"><img style="width:100%;max-width:300" alt="profile photo" src="images/circle.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <h2>Research</h2>
+                <p>
+                  My research lies at the intersection of computer graphics, computer vision, and machine learning. My work so far has covered 3D reconstruction; general, non-rigidly deforming objects; and neural rendering and neural scene representations.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+		  	              <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src='images/scenerflow.jpg' width="160">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://vcai.mpi-inf.mpg.de/projects/scenerflow/">
+            <span class="papertitle">SceNeRFlow: Time-Consistent Reconstruction of General Dynamic Scenes</span>
+          </a>
+          <br>
+                            <b>Edith Tretschk</b>, 
+							<a href="https://people.mpi-inf.mpg.de/~golyanik/" target="_blank">Vladislav Golyanik</a>, 
+							<a href="https://zollhoefer.com/" target="_blank">Michael Zollh&ouml;fer</a>, 
+							<a href="https://aljazbozic.github.io/" target="_blank">Aljaž Božič</a>, 
+							<a href="https://christophlassner.de/" target="_blank">Christoph Lassner</a>, 
+                            <a href="https://www.mpi-inf.mpg.de/~theobalt/" target="_blank">Christian Theobalt</a>
+          <br>
+          <em>3DV</em>, 2024
+          <br>
+          <a href="https://vcai.mpi-inf.mpg.de/projects/scenerflow/" target="_blank">project page (incl. code)</a> / <a href="https://arxiv.org/abs/2308.08258" target="_blank">arXiv</a>
+          <p></p>
+          <p>Existing methods for the 4D reconstruction of general, non-rigidly deforming objects focus on novel-view synthesis and neglect correspondences. We propose SceNeRFlow to reconstruct a general, non-rigid scene in a time-consistent manner. Our dynamic-NeRF method takes multi-view RGB videos and background images from static cameras with known camera parameters as input. Like prior dynamic-NeRF methods, we use a backwards deformation model. We find non-trivial adaptations of this model necessary to handle larger motions. We show experimentally that, unlike prior work that only handles small motion, our method enables the reconstruction of studio-scale motions. </p>
+        </td>
+      </tr>	
+
+
+                      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src='images/3d_qae.png' width="160">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://4dqv.mpi-inf.mpg.de/QAE3D/">
+            <span class="papertitle">3D-QAE: Fully Quantum Auto-Encoding of 3D Point Clouds</span>
+          </a>
+          <br>
+              <a href="https://scholar.google.com/citations?user=QiVDHlsAAAAJ&hl=en" target="_blank">Lakshika Rathi</a>,
+                            <b>Edith Tretschk</b>, 
+              <a href="https://www.cse.iitb.ac.in/~rdabral/" target="_blank">Rishabh Dabral</a>,
+              <a href="https://www.mpi-inf.mpg.de/~theobalt/" target="_blank">Christian Theobalt</a>,
+              <a href="https://people.mpi-inf.mpg.de/~golyanik/" target="_blank">Vladislav Golyanik</a>
+          <br>
+          <em>BMVC</em>, 2023
+          <br>
+          <a href="https://4dqv.mpi-inf.mpg.de/QAE3D/" target="_blank">project page (incl. code)</a> / <a href="https://arxiv.org/abs/2311.05604" target="_blank">arXiv</a>
+          <p></p>
+          <p>This paper introduces the first quantum auto-encoder for 3D point clouds. Our 3D-QAE approach is fully quantum, i.e. all its data processing components are designed for quantum hardware. Along with finding a suitable architecture, the core challenges in designing such a fully quantum model include 3D data normalisation and parameter optimisation, and we propose solutions for both these tasks. Experiments on simulated gate-based quantum hardware demonstrate that our method outperforms simple classical baselines, paving the way for a new research direction in 3D computer vision. </p>
+        </td>
+      </tr> 
+		  
+		              <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src='images/ccuantumm.png' width="160">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://4dqv.mpi-inf.mpg.de/CCuantuMM/">
+            <span class="papertitle">CCuantuMM: Cycle-Consistent Quantum-Hybrid Matching of Multiple Shapes</span>
+          </a>
+          <br>
+			 <a href="https://scholar.google.com/citations?user=8rU1AaQAAAAJ&hl=en&oi=sra" target="_blank">Harshil Bhatia</a>,
+                            <b>Edith Tretschk</b>,
+                            <a href="https://zorah.github.io/" target="_blank">Zorah Lähner</a>,
+                            <a href="https://www.vsa.informatik.uni-siegen.de/en/seelbach-marcel" target="_blank">Marcel Seelbach Benkner</a>,					
+                            <a href="https://sites.google.com/site/michaelmoellermath/" target="_blank">Michael Moeller</a>,
+                            <a href="https://www.mpi-inf.mpg.de/~theobalt/" target="_blank">Christian Theobalt</a>,
+                            <a href="https://people.mpi-inf.mpg.de/~golyanik/" target="_blank">Vladislav Golyanik</a>
+          <br>
+          <em>CVPR</em>, 2023
+          <br>
+          <a href="https://4dqv.mpi-inf.mpg.de/CCuantuMM/" target="_blank">project page (incl. code)</a> / <a href="https://arxiv.org/abs/2303.16202" target="_blank">arXiv</a>
+          <p></p>
+          <p>Jointly matching multiple, non-rigidly deformed 3D shapes is a challenging, NP-hard problem. A perfect matching is necessarily cycle-consistent: Following the pairwise point correspondences along several shapes must end up at the starting vertex of the original shape. This paper introduces the first quantum-hybrid approach for 3D shape multi-matching. Its iterative formulation is admissible to modern adiabatic quantum hardware and scales linearly with the total number of input shapes. On benchmark datasets, the proposed approach is on-par with classical multi-matching methods.</p>
+        </td>
+      </tr>	
+		  
+		  
+		            <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src='images/star_monocular.png' width="160">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://4dqv.mpi-inf.mpg.de/star_monocular_nr3d/">
+            <span class="papertitle">State of the Art in Dense Monocular Non-Rigid 3D Reconstruction</span>
+          </a>
+          <br>
+			 <b>Edith Tretschk*</b>,
+                            <a href="https://people.mpi-inf.mpg.de/~nkairand/" target="_blank">Navami Kairanda*</a>,
+                            <a href="https://people.mpi-inf.mpg.de/~mbr/" target="_blank">Mallikarjun B R</a>,
+                            <a href="https://www.cse.iitb.ac.in/~rdabral/" target="_blank">Rishabh Dabral</a>,
+                            <a href="https://generativevision.mpi-inf.mpg.de/" target="_blank">Adam Kortylewski</a>,
+                            <a href="https://www.ki.fau.de/speakers/prof-dr-bernhard-egger/" target="_blank">Bernhard Egger</a>,
+                            <a href="https://people.mpi-inf.mpg.de/~mhaberma/" target="_blank">Marc Habermann</a>,
+                            <a href="https://people.epfl.ch/pascal.fua/bio?lang=en" target="_blank">Pascal Fua</a>,
+                            <a href="https://www.mpi-inf.mpg.de/~theobalt/" target="_blank">Christian Theobalt</a>,
+                            <a href="https://people.mpi-inf.mpg.de/~golyanik/" target="_blank">Vladislav Golyanik</a>
+          <br>
+          <em>Eurographics (STAR)</em>, 2023
+          <br>
+          <a href="https://4dqv.mpi-inf.mpg.de/star_monocular_nr3d/" target="_blank">project page</a> / <a href="https://arxiv.org/abs/2210.15664" target="_blank">arXiv</a>
+          <p></p>
+          <p>This survey focuses on state-of-the-art methods for dense non-rigid 3D reconstruction of various deformable objects and composite scenes from monocular videos or sets of monocular views. It reviews the fundamentals of 3D reconstruction from 2D image observations. We then start from general methods, and proceed towards techniques making stronger assumptions about the observed objects (e.g. human faces, bodies, hands, and animals). We conclude by discussing open challenges in the field and the social aspects associated with the usage of the reviewed methods. </p>
+        </td>
+      </tr>	
+		  
+		  
+		          <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src='images/quant.png' width="160">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://4dqv.mpi-inf.mpg.de/QuAnt/">
+            <span class="papertitle">QuAnt: Quantum Annealing with Learnt Couplings</span>
+          </a>
+          <br>
+			 <a href="https://www.vsa.informatik.uni-siegen.de/en/seelbach-marcel" target="_blank">Marcel Seelbach Benkner</a>,
+                            <a href="https://scholar.google.com/citations?user=Dg5q7-QAAAAJ&hl=en&oi=ao" target="_blank">Maximilian Krahn</a>,
+							<b>Edith Tretschk</b>,
+                            <a href="https://zorah.github.io/" target="_blank">Zorah Lähner</a>,
+                            <a href="https://sites.google.com/site/michaelmoellermath/" target="_blank">Michael Moeller</a>,
+                            <a href="https://people.mpi-inf.mpg.de/~golyanik/" target="_blank">Vladislav Golyanik</a>
+          <br>
+          <em>ICLR</em>, 2023 (Top 25%)
+          <br>
+          <a href="https://4dqv.mpi-inf.mpg.de/QuAnt/" target="_blank">project page (incl. code & data)</a> / <a href="https://arxiv.org/abs/2210.08114" target="_blank">arXiv</a> / <a href="https://openreview.net/forum?id=isiQ5KIXbjj" target="_blank">OpenReview</a>
+          <p></p>
+          <p>Modern quantum annealers can find high-quality solutions to combinatorial optimisation objectives given as quadratic unconstrained binary optimisation (QUBO) problems. Unfortunately, obtaining suitable QUBO forms in computer vision remains challenging and currently requires problem-specific analytical derivations. In stark contrast to prior work, this paper proposes to learn QUBO forms from data through gradient backpropagation instead of deriving them. As a result, the solution encodings can be chosen flexibly and compactly. Furthermore, our methodology is general and virtually independent of the specifics of the target problem type.</p>
+        </td>
+      </tr>	
+		  
+		  
+		        <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src='images/qrng.png' width="160">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://4dqv.mpi-inf.mpg.de/QRNG/">
+            <span class="papertitle">Generation of Truly Random Numbers on a Quantum Annealer</span>
+          </a>
+          <br>
+			 <a href="https://scholar.google.com/citations?user=8rU1AaQAAAAJ&hl=en&oi=sra" target="_blank">Harshil Bhatia</a>,
+							<b>Edith Tretschk</b>,
+                            <a href="https://www.mpi-inf.mpg.de/~theobalt/" target="_blank">Christian Theobalt</a>,
+                            <a href="https://people.mpi-inf.mpg.de/~golyanik/" target="_blank">Vladislav Golyanik</a>
+          <br>
+          <em>IEEE Access</em>, 2022
+          <br>
+          <a href="https://4dqv.mpi-inf.mpg.de/QRNG/" target="_blank">project page (incl. code & data)</a>
+          <p></p>
+          <p>This study investigates how qubits of modern quantum annealers (QA) such as D-Wave can be applied for generating truly random numbers. We show how a QA can be initialised and how the annealing schedule can be set so that after the annealing, thousands of truly random binary numbers are measured in parallel. We discuss the observed qubits' properties and their influence on the random number generation and consider various physical factors that influence the performance of our generator, i.e., digital-to-analogue quantisation errors, flux errors, temperature errors and spin bath polarisation.</p>
+        </td>
+      </tr>	
+		  
+		  
+		      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src='images/phisft.png' width="160">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://4dqv.mpi-inf.mpg.de/phi-SfT/">
+            <span class="papertitle">φ-SfT: Shape-from-Template with a Physics-based Deformation Model</span>
+          </a>
+          <br>
+			 <a href="https://people.mpi-inf.mpg.de/~nkairand/" target="_blank">Navami Kairanda</a>,
+							<b>Edith Tretschk</b>,
+							<a href="https://people.mpi-inf.mpg.de/~elgharib/" target="_blank">Mohamed Elgharib</a>,
+                            <a href="https://www.mpi-inf.mpg.de/~theobalt/" target="_blank">Christian Theobalt</a>,
+                            <a href="https://people.mpi-inf.mpg.de/~golyanik/" target="_blank">Vladislav Golyanik</a>
+          <br>
+          <em>CVPR</em>, 2022
+          <br>
+          <a href="https://4dqv.mpi-inf.mpg.de/phi-SfT/" target="_blank">project page (incl. code & data)</a> / <a href="https://arxiv.org/abs/2203.11938" target="_blank">arXiv</a>
+          <p></p>
+          <p>This paper proposes a new SfT approach explaining the observations through simulation of a physically-based surface deformation model representing forces and material properties. In contrast to previous works, we utilise a differentiable physics-based simulator to regularise the surface evolution. In addition, we regress the material properties such as its bending coefficients, elasticity, stiffness, and material density. For the evaluation, we record with an RGB-D camera challenging real surfaces with various material properties and texture, exposed to  physical forces. Our approach reconstructs the underlying deformations much more accurately than related methods. </p>
+        </td>
+      </tr>	
+	  
+		  
+		    <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src='images/veo.png' width="160">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://hsiaoyu.github.io/VEO/">
+            <span class="papertitle">Virtual Elastic Objects</span>
+          </a>
+          <br>
+			 <a href="https://www.linkedin.com/in/hsiaoyu" target="_blank">Hsiao-yu Chen</a>,
+							<b>Edith Tretschk</b>,
+							<a href="https://tuurstuyck.github.io/" target="_blank">Tuur Stuyck</a>,
+							<a href="https://scholar.google.com/citations?user=V_qztpEAAAAJ&hl=en" target="_blank">Petr Kadleček</a>,
+							<a href="https://scholar.google.com/citations?user=62RXlNoAAAAJ&hl=en" target="_blank">Ladislav Kavan</a>,
+                            <a href="https://www.cs.utexas.edu/users/evouga/" target="_blank">Etienne Vouga</a>,
+							<a href="https://christophlassner.de/" target="_blank">Christoph Lassner</a>
+          <br>
+          <em>CVPR</em>, 2022
+          <br>
+          <a href="https://hsiaoyu.github.io/VEO/" target="_blank">project page (incl. data)</a> / <a href="https://arxiv.org/abs/2201.04623" target="_blank">arXiv</a>
+          <p></p>
+          <p>We present Virtual Elastic Objects (VEOs): virtual objects that not only look like their real-world counterparts but also behave like them, even when subject to novel interactions. Achieving this presents multiple challenges: not only do objects have to be captured including the physical forces acting on them, then faithfully reconstructed and rendered, but also plausible material parameters found and simulated. The resulting method can handle objects composed of inhomogeneous material, with very different shapes, and it can simulate interactions with other virtual objects. We present our results using a newly collected dataset of 12 objects under a variety of force fields, which will be shared with the community. </p>
+        </td>
+      </tr>	
+		  
+		  
+		  <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src='images/star_neural_rendering.png' width="160">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://4dqv.mpi-inf.mpg.de/star_neural_rendering/">
+            <span class="papertitle">Advances in Neural Rendering</span>
+          </a>
+          <br>
+			 <a href="https://ayushtewari.com/" target="_blank">Ayush Tewari*</a>,
+                            <a href="https://justusthies.github.io/" target="_blank">Justus Thies*</a>,
+                            <a href="https://bmild.github.io/" target="_blank">Ben Mildenhall*</a>,
+                            <a href="https://pratulsrinivasan.github.io/" target="_blank">Pratul Srinivasan*</a>,
+							<b>Edith Tretschk</b>,
+							<a href="https://yifita.github.io/" target="_blank">Yifan Wang</a>,
+							<a href="https://christophlassner.de/" target="_blank">Christoph Lassner</a>,
+							<a href="https://www.vincentsitzmann.com/" target="_blank">Vincent Sitzmann</a>,
+							<a href="https://ricardomartinbrualla.com/" target="_blank">Ricardo Martin-Brualla</a>,
+							<a href="https://stephenlombardi.github.io/" target="_blank">Stephen Lombardi</a>,
+							<a href="http://www.cs.cmu.edu/~tsimon/" target="_blank">Tomas Simon</a>,
+                            <a href="https://www.mpi-inf.mpg.de/~theobalt/" target="_blank">Christian Theobalt</a>,
+                            <a href="https://www.niessnerlab.org/" target="_blank">Matthias Niessner</a>,
+                            <a href="https://jonbarron.info/" target="_blank">Jonathan T. Barron</a>,
+                            <a href="https://stanford.edu/~gordonwz/" target="_blank">Gordon Wetzstein</a>,
+                            <a href="https://zollhoefer.com/" target="_blank">Michael Zollh&ouml;fer</a>,
+                            <a href="https://people.mpi-inf.mpg.de/~golyanik/" target="_blank">Vladislav Golyanik</a>
+          <br>
+          <em>Eurographics (STAR)</em>, 2022
+          <br>
+          <a href="https://4dqv.mpi-inf.mpg.de/star_neural_rendering/" target="_blank">project page</a> / <a href="https://arxiv.org/abs/2111.05849" target="_blank">arXiv</a>
+          <p></p>
+          <p>This state-of-the-art report on advances in neural rendering focuses on methods that combine classical rendering principles with learned 3D scene representations, often now referred to as neural scene representations. In addition to methods that handle static scenes, we cover neural scene representations for modeling non-rigidly deforming objects and scene editing and composition. While most of these approaches are scene-specific, we also discuss techniques that generalize across object classes and can be used for generative tasks. In addition to reviewing these state-of-the-art methods, we provide an overview of fundamental concepts and definitions used in the current literature. We conclude with a discussion on open challenges and social implications.</p>
+        </td>
+      </tr>	
+		  
+		  
+		  <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src='images/nonrigid_nerf.png' width="160">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">
+            <span class="papertitle">Non-Rigid Neural Radiance Fields: Reconstruction and Novel View Synthesis of a Dynamic Scene From Monocular Video</span>
+          </a>
+          <br>
+			<b>Edith Tretschk</b>,
+							<a href="https://ayushtewari.com/" target="_blank">Ayush Tewari</a>,
+							<a href="https://people.mpi-inf.mpg.de/~golyanik/" target="_blank">Vladislav Golyanik</a>,
+							<a href="https://zollhoefer.com/" target="_blank">Michael Zollh&ouml;fer</a>,
+							<a href="https://christophlassner.de/" target="_blank">Christoph Lassner</a>,
+							<a href="https://www.mpi-inf.mpg.de/~theobalt/" target="_blank">Christian Theobalt</a>
+          <br>
+          <em>ICCV</em>, 2021
+          <br>
+          <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/" target="_blank">project page (incl. code)</a> / <a href="https://arxiv.org/abs/2012.12247" target="_blank">arXiv</a>
+          <p></p>
+          <p>We present Non-Rigid Neural Radiance Fields (NR-NeRF), a reconstruction and novel view synthesis approach for general non-rigid dynamic scenes. Our approach takes RGB images of a dynamic scene as input (e.g., from a monocular video recording), and creates a high-quality space-time geometry and appearance representation. We show that a single handheld consumer-grade camera is sufficient to synthesize sophisticated renderings of a dynamic scene from novel virtual camera views, e.g. a `bullet-time' video effect. Our formulation enables dense correspondence estimation across views and time, and compelling video editing applications such as motion exaggeration.</p>
+        </td>
+      </tr>	
+		  
+		  
+		<tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src='images/patchnets.png' width="160">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://gvv.mpi-inf.mpg.de/projects/PatchNets/">
+            <span class="papertitle">PatchNets: Patch-Based Generalizable Deep Implicit 3D Shape Representations</span>
+          </a>
+          <br>
+			<b>Edith Tretschk</b>,
+								<a href="https://ayushtewari.com/" target="_blank">Ayush Tewari</a>,
+								<a href="https://people.mpi-inf.mpg.de/~golyanik/" target="_blank">Vladislav Golyanik</a>,
+								<a href="https://zollhoefer.com/" target="_blank">Michael Zollh&ouml;fer</a>,
+								<a href="https://scholar.google.de/citations?user=ArKKNxwAAAAJ" target="_blank">Carsten Stoll</a>,
+                                <a href="https://www.mpi-inf.mpg.de/~theobalt/" target="_blank">Christian Theobalt</a>
+          <br>
+          <em>ECCV</em>, 2020
+          <br>
+          <a href="https://gvv.mpi-inf.mpg.de/projects/PatchNets/" target="_blank">project page (incl. code)</a> / <a href="https://arxiv.org/abs/2008.01639" target="_blank">arXiv</a>
+          <p></p>
+          <p>We present a new mid-level patch-based surface representation. At the level of patches, objects across different categories share similarities, which leads to more generalizable models. We show that our representation trained on one category of objects from ShapeNet can also well represent detailed shapes from any other category. In addition, it can be trained using much fewer shapes, compared to existing approaches. We show several applications of our new representation, including shape interpolation and partial point cloud completion. Due to explicit control over positions, orientations and scales of patches, our representation is also more controllable compared to object-level representations, which enables us to deform encoded shapes non-rigidly.</p>
+        </td>
+      </tr>	
+		  
+        
+		<tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src='images/demea.png' width="160">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://gvv.mpi-inf.mpg.de/projects/DEMEA/">
+            <span class="papertitle">DEMEA: Deep Mesh Autoencoders for Non-Rigidly Deforming Objects</span>
+          </a>
+          <br>
+			<b>Edith Tretschk</b>,
+								<a href="https://ayushtewari.com/" target="_blank">Ayush Tewari</a>,
+								<a href="https://zollhoefer.com/" target="_blank">Michael Zollh&ouml;fer</a>,
+                                <a href="https://people.mpi-inf.mpg.de/~golyanik/" target="_blank">Vladislav Golyanik</a>,
+                                <a href="https://www.mpi-inf.mpg.de/~theobalt/" target="_blank">Christian Theobalt</a>
+          <br>
+          <em>ECCV</em>, 2020 (Spotlight)
+          <br>
+          <a href="https://gvv.mpi-inf.mpg.de/projects/DEMEA/" target="_blank">project page</a> / <a href="https://arxiv.org/abs/1905.10290" target="_blank">arXiv</a>
+          <p></p>
+          <p>We propose a general-purpose DEep MEsh Autoencoder (DEMEA) which adds a novel embedded deformation layer to a graph-convolutional mesh autoencoder. We demonstrate multiple applications of DEMEA, including non-rigid 3D reconstruction from depth and shading cues, non-rigid surface tracking, as well as the transfer of deformations over different meshes.</p>
+        </td>
+      </tr>	
+		
+
+		<tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src='images/nnrsfm.png' width="160">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://gvv.mpi-inf.mpg.de/projects/Neural_NRSfM/">
+            <span class="papertitle">Neural Dense Non-Rigid Structure from Motion with Latent Space Constraints</span>
+          </a>
+          <br>
+			<a href="https://de.linkedin.com/in/vikramjit-sidhu-16294887" target="_blank">Vikramjit Singh Sidhu</a>,
+								<b>Edith Tretschk</b>,
+								<a href="https://people.mpi-inf.mpg.de/~golyanik/" target="_blank">Vladislav Golyanik</a>,
+								<a href="https://www.iri.upc.edu/people/aagudo/" target="_blank">Antonio Agudo</a>,
+                                <a href="https://www.mpi-inf.mpg.de/~theobalt/" target="_blank">Christian Theobalt</a>
+          <br>
+          <em>ECCV</em>, 2020
+          <br>
+          <a href="https://gvv.mpi-inf.mpg.de/projects/Neural_NRSfM/" target="_blank">project page (incl. code)</a>
+          <p></p>
+          <p>We introduce the first dense neural non-rigid structure from motion (N-NRSfM) approach which can be trained end-to-end in an unsupervised manner from 2D point tracks. We formulate the deformation model by an auto-decoder and impose subspace constraints on the recovered latent space function in the frequency domain, allowing us to recover the period of the input sequence. Our method enables multiple applications including shape compression, completion and interpolation, among others. Combined with an encoder trained directly on 2D images, we perform scenario-specific monocular 3D shape reconstruction at interactive frame rates.</p>
+        </td>
+      </tr>	
+		
+
+		<tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src='images/dispvoxnets.png' width="160">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://gvv.mpi-inf.mpg.de/projects/DispVoxNets/">
+            <span class="papertitle">DispVoxNets: Non-Rigid Point Set Alignment with Supervised Learning Proxies</span>
+          </a>
+          <br>
+          
+			<a href="https://people.mpi-inf.mpg.de/~sshimada/" target="_blank">Soshi Shimada</a>,
+                                <a href="https://people.mpi-inf.mpg.de/~golyanik/" target="_blank">Vladislav Golyanik</a>,
+                                <b>Edith Tretschk</b>,		
+                                <a href="https://av.dfki.de/members/stricker/" target="_blank">Didier Stricker</a>,
+                                <a href="https://www.mpi-inf.mpg.de/~theobalt/" target="_blank">Christian Theobalt</a>
+          <br>
+          <em>3DV</em>, 2019 (Oral)
+          <br>
+          <a href="https://gvv.mpi-inf.mpg.de/projects/DispVoxNets/" target="_blank">project page</a> / <a href="https://arxiv.org/abs/1907.10367" target="_blank">arXiv</a>
+          <p></p>
+          <p>We introduce a supervised-learning framework for non-rigid point set alignment of a new kind - Displacements on Voxels Networks (DispVoxNets) - which abstracts away from the point set representation and regresses 3D displacement fields on regularly sampled proxy 3D voxel grids. Thanks to recently released collections of deformable objects with known intra-state correspondences, DispVoxNets learn a deformation model and further priors (e.g., weak point topology preservation) for different object categories such as cloths, human bodies and faces.</p>
+        </td>
+      </tr>		  
+      
+      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src='images/cscs2018.png' width="160">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://arxiv.org/abs/1805.12487">
+            <span class="papertitle">Sequential Attacks on Agents for Long-Term Adversarial Goals</span>
+          </a>
+          <br>
+          
+			<b>Edith Tretschk</b>,
+			<a href="https://seongjoonoh.com/" target="_blank">Seong Joon Oh</a>,
+			<a href="https://scalable.mpi-inf.mpg.de/" target="_blank">Mario Fritz</a>
+          <br>
+          <em>2. ACM Computer Science in Cars Symposium</em>, 2018
+          <br>
+          <a href="https://wp.mpi-inf.mpg.de/cscs/files/2018/09/07-Sequential-A-acks-on-Agents-for-Long-Term-Adversarial-Goals.pdf" target="_blank">PDF</a> / <a href="https://arxiv.org/abs/1805.12487" target="_blank">arXiv</a>
+          <p></p>
+          <p>We show that an adversary can be trained to control a deep reinforcement learning agent. Our technique works on fully trained victim agents and makes them pursue an alternative, adversarial goal when under attack. In contrast to traditional attacks on e.g. image classifiers, our setting involves adversarial goals that may not be immediately reachable but instead may require multiple steps to be achieved.</p>
+        </td>
+      </tr>
+
+
+          </tbody></table>
+
+          
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+            <tr>
+              <td>
+                <h2>Education</h2>
+              </td>
+            </tr>
+          </tbody></table>
+          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+            
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/mpi_logo.png" width="160"></td>
+              <td width="75%" valign="center">
+                Ph.D. in <a href="https://saarland-informatics-campus.de/" target="_blank">Computer Science</a> (October 2018 - July 2023)
+				<br>
+				Ph.D. Advisor: <a href="https://people.mpi-inf.mpg.de/~theobalt/" target="_blank">Prof. Dr. Christian Theobalt</a>
+				<br>
+				<a href="https://www.mpi-inf.mpg.de" target="_blank">Max-Planck-Institut f&uuml;r Informatik</a> and <a href="https://www.uni-saarland.de" target="_blank">Saarland University</a>, Saarbr&uuml;cken, Germany
+        <br>
+        Thesis: <a href="http://dx.doi.org/10.22028/D291-41650" target="_blank">Representing and Reconstructing General Non-Rigid Objects with Neural Models</a>
+              </td>
+            </tr>
+			
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/saarland.png" width="160"></td>
+              <td width="75%" valign="center">
+                Graduate Student in Computer Science (April 2017 - July 2023)
+				<br>
+				<a href="https://www.graduateschool-computerscience.de/" target="_blank">Graduate School of Computer Science</a> at Saarland University, Saarbr&uuml;cken, Germany
+              </td>
+            </tr>
+			
+			<tr>
+              <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/saarland.png" width="160"></td>
+              <td width="75%" valign="center">
+                Doctoral Preparatory Phase in Computer Science (April 2017 - October 2018)
+				<br>
+				Saarland University, Saarbr&uuml;cken, Germany
+              </td>
+            </tr>
+			
+			<tr>
+              <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/saarland.png" width="160"></td>
+              <td width="75%" valign="center">
+                B.Sc. in Computer Science (October 2014 - March 2017)
+				<br>
+				Saarland University, Saarbr&uuml;cken, Germany
+				<br>
+				Bachelor's Thesis: Variational Pansharpening with Nonlinear Anistropic Diffusion (advisor: <a href="https://www.mia.uni-saarland.de/weickert/index.shtml" target="_blank">Prof. Dr. Joachim Weickert</a>)
+              </td>
+            </tr>
+			
+			
+		<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+            <tr>
+              <td>
+                <h2>Positions</h2>
+              </td>
+            </tr>
+          </tbody></table>
+          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+		  
+		  <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/reality-labs-research.png" width="100"></td>
+              <td width="75%" valign="center">
+                Research Scientist (since December 2023)
+				<br>
+				Meta Reality Labs Research, San Francisco Bay Area
+              </td>
+            </tr>
+            
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/reality-labs-research.png" width="100"></td>
+              <td width="75%" valign="center">
+                Research Intern (June 2021 - December 2021)
+				<br>
+				Facebook Reality Labs Research, San Francisco Bay Area
+				<br>
+				Intern Manager: <a href="https://christophlassner.de/" target="_blank">Christoph Lassner</a>
+              </td>
+            </tr>
+			
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/mpi_logo.png" width="160"></td>
+              <td width="75%" valign="center">
+                Research Immersion Lab (October 2017 - March 2018)
+				<br>
+				<a href="https://scalable.mpi-inf.mpg.de/" target="_blank">Scalable Learning & Perception</a> at <a href="https://www.mpi-inf.mpg.de" target="_blank">Max-Planck-Institut f&uuml;r Informatik</a>
+				<br>
+				Group Leader: <a href="https://scalable.mpi-inf.mpg.de/" target="_blank">Dr. Mario Fritz</a>
+              </td>
+            </tr>
+			
+			<tr>
+              <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/mpi_logo.png" width="160"></td>
+              <td width="75%" valign="center">
+                Research Immersion Lab (April 2017 - October 2017)
+				<br>
+				<a href="https://vcai.mpi-inf.mpg.de/" target="_blank">Graphics, Vision & Video</a> at <a href="https://www.mpi-inf.mpg.de" target="_blank">Max-Planck-Institut f&uuml;r Informatik</a>
+				<br>
+				Group Leader: <a href="https://people.mpi-inf.mpg.de/~theobalt/" target="_blank">Prof. Dr. Christian Theobalt</a>
+              </td>
+            </tr>
+			
+			<tr>
+              <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/mpi_logo.png" width="160"></td>
+              <td width="75%" valign="center">
+                Student Assistant (October 2016 - March 2017)
+				<br>
+				<a href="https://vcai.mpi-inf.mpg.de/" target="_blank">Graphics, Vision & Video</a> at <a href="https://www.mpi-inf.mpg.de" target="_blank">Max-Planck-Institut f&uuml;r Informatik</a>
+				<br>
+				Group Leader: <a href="https://people.mpi-inf.mpg.de/~theobalt/" target="_blank">Prof. Dr. Christian Theobalt</a>
+              </td>
+            </tr>
+			
+			
+		<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+            <tr>
+              <td>
+                <h2>Invited Talks</h2>
+              </td>
+            </tr>
+          </tbody></table>
+          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+
+            <tr>
+              <td width="100%" valign="center">
+        <b>SceNeRFlow: Time-Consistent Reconstruction of General Dynamic Scenes</b>
+        <br>
+        <em>World Labs, San Francisco Bay Area</em>
+        <br>
+        June 2024
+        <br>
+        <br>
+        <b>Representing and Reconstructing Dynamic Objects with Neural Models</b>
+				<br>
+				<em>Meta Reality Labs Research, San Francisco Bay Area</em>
+				<br>
+				July 2023
+				<br>
+				<br>
+				<b>Representing and Reconstructing Dynamic Objects with Neural Models</b>
+				<br>
+				<em>Nvidia, San Francisco Bay Area</em>
+				<br>
+				June 2023
+				<br>
+				<br>
+				<b>Representing and Reconstructing Dynamic Objects with Neural Models</b>
+				<br>
+				<em>Epic Games, San Francisco Bay Area</em>
+				<br>
+				April 2023
+				<br>
+				<br>
+				<b>Beyond Faces, Hands, and Bodies: Modelling General Non-Rigid Objects</b>
+				<br>
+				<em>with <a href="https://www.cis.upenn.edu/~kostas/" target="_blank">Kostas Daniilidis</a> at University of Pennsylvania</em>
+				<br>
+				September 2020
+              </td>
+            </tr>
+            
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody> 
+            <tr>
+              <td>
+                <h2>Miscellaneous</h2>
+              </td>
+            </tr>
+          </tbody></table>
+          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+            
+            <tr>
+              <td width="100%" valign="center">
+                Reviewer for: CVPR, ECCV, ICCV, ICLR, ICML, NeurIPS (Top Reviewer 2022), Siggraph Asia, Siggraph, TPAMI, ICRA
+				<br>
+				<br>
+				November 2017:<br /><a href="https://www.fdsi.org/index.php?id=6" target="_blank">Bachelor Award</a> (for the best Bachelor graduates in CS)
+				<br>
+				<br>
+				April 2015 - March 2017:<br />Member  of  the  Bachelor  Honors  Program  (special  support  program for talented and ambitious Bachelor students in CS)
+				<br>
+				<br>
+				April 2015 - March 2017:<br /><a href="https://www.deutschlandstipendium.de/" target="_blank">Deutschlandstipendium</a> scholarship
+              </td>
+            </tr>
+			
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                  This website is built on <a href="https://github.com/jonbarron/jonbarron_website" target="_blank">Jon Barron's website template</a>!
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
